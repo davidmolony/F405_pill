@@ -1838,8 +1838,8 @@
   )
 
   (no_connect (at 214.63 109.22) (uuid 1703a798-af76-41cd-89fc-fbd89dea7c23))
-  (no_connect (at 250.19 101.6) (uuid 1703a798-af76-41cd-89fc-fbd89dea7c23))
-  (no_connect (at 209.55 152.4) (uuid 1703a798-af76-41cd-89fc-fbd89dea7c23))
+  (no_connect (at 250.19 101.6) (uuid 1703a798-af76-41cd-89fc-fbd89dea7c24))
+  (no_connect (at 209.55 152.4) (uuid 1703a798-af76-41cd-89fc-fbd89dea7c25))
   (no_connect (at 203.2 31.75) (uuid 3d6473be-83e0-44a8-bdc4-b05f65acaa36))
 
   (wire (pts (xy 43.18 149.86) (xy 51.435 149.86))
