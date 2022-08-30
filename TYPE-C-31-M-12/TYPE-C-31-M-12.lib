@@ -1,4 +1,4 @@
-qEESchema-LIBRARY Version 2.3
+EESchema-LIBRARY Version 2.3
 #encoding utf-8
 #(c) SnapEDA 2016 (snapeda.com)
 #This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
@@ -11,9 +11,9 @@ F1 "TYPE-C-31-M-12" -500 -530 50 H V L BNN
 F2 "HRO_TYPE-C-31-M-12" 0 0 50 H I L BNN
 F3 "" 0 0 50 H I L BNN
 F4 "Manufacturer Recommendations" 0 0 50 H I L BNN "STANDARD"
-F5 "A" 0 0 50 H I L BNN "PARTREV"
-F6 "3.31mm" 0 0 50 H I L BNN "MAXIMUM_PACKAGE_HEIGHT"
-F7 "HRO Electronics" 0 0 50 H I L BNN "MANUFACTURER"
+F5 "3.31mm" 0 0 50 H I L BNN "MAXIMUM_PACKAGE_HEIGHT"
+F6 "HRO Electronics" 0 0 50 H I L BNN "MANUFACTURER"
+F7 "A" 0 0 50 H I L BNN "PARTREV"
 DRAW
 S -500 -500 500 500 0 0 10 f
 X DP1 A6 -700 100 200 R 40 40 0 0 B 
