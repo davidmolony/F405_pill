@@ -3391,7 +3391,7 @@
     (property "Datasheet" "https://datasheet.lcsc.com/lcsc/1810191222_Samsung-Electro-Mechanics-CL05B104KB54PNC_C307331.pdf" (id 3) (at 156.21 175.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC" "C307331" (id 6) (at 156.21 175.26 0)
+    (property "LCSC" "C110055" (id 6) (at 156.21 175.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid cceaadcb-4029-44be-b2f0-b5b9eea86375))
