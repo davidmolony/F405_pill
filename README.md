@@ -12,7 +12,7 @@ F405 Pill for running VESC based motor control from a Black/Blue Pill footprint
     <td>Name</td>
     <td>Function</td>
     <td>Assigned to</td>
-  </tr>
+  </th>
   <tr>
     <td>1</td>
     <td>GND</td>
