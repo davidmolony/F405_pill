@@ -1,4 +1,5 @@
 # F405_pill
-F405 Pill for running VESC based motor control from a Black/Blue Pill footprint
+A F405 Pill with Black/Blue Pill footprint for the [CCC_ESC](https://github.com/badgineer/CCC_ESC), a VESC-based motor control board.
 
-<img src="/pics/PIN_MP2_MAPPING.png" alt="Pins to MP2 title="Pins to MP2">
+The Kicad BOM contains links to [jlcpcb](https://jlcpcb.com/) for rapid PCBA.
+<img src="/pics/PIN_MP2_MAPPING.png" alt="Pins to MP2" title="Pins to MP2">
