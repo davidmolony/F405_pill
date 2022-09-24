@@ -8,6 +8,11 @@
 * USB-C connector. 
 * CAN pin header. 
 
+## Punchlist for V1.1
+* power LED color
+* power LED resistor
+* 12 pF on xtal
+
 ## Specs
 * Input: +3.52V to +5.25V
 * Output: +3.3V @ 1000mA
