@@ -84,3 +84,7 @@
 * power LED resistor
 * 12 pF on xtal
 
+## V1.2 change request
+* put LEDs on separate resistors
+* increase LED resistor size to 10k or 20k. 
+
