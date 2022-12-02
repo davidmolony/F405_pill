@@ -263,4 +263,4 @@
 // HW-specific functions
 float hwMP2_get_temp(void);
 
-#endif /* HW_UBOX_V2_100_CORE_H_ */
+#endif /* HW_MP2_ */
