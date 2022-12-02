@@ -226,7 +226,7 @@
 #define MCCONF_L_MIN_VOLTAGE			38.0		// Minimum input voltage due to DCDC brick cutout
 #endif
 #ifndef MCCONF_L_MAX_VOLTAGE
-#define MCCONF_L_MAX_VOLTAGE			88.0	// Maximum input voltage
+#define MCCONF_L_MAX_VOLTAGE			90.0	// Maximum input voltage
 #endif
 #ifndef MCCONF_DEFAULT_MOTOR_TYPE
 #define MCCONF_DEFAULT_MOTOR_TYPE		MOTOR_TYPE_FOC
@@ -253,7 +253,7 @@
 #define HW_LIM_CURRENT_ABS		0.0, 180.0
 
 
-	#define HW_LIM_VIN				36.0, 90.0
+#define HW_LIM_VIN				36.0, 90.0
 
 #define HW_LIM_ERPM				-200e3, 200e3
 #define HW_LIM_DUTY_MIN			0.0, 0.1
