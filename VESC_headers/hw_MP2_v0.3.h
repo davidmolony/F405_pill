@@ -96,17 +96,22 @@
 
 // ADC macros and settings
 
+//****************************************************************************************************************************************************
+// MP2 has a bug (feature?) where the phase voltage dividers are different from the bus voltage dividers.
+// for this reason the VIN_R1 and VIN_R2 are different from the values used in the GET_INPUT_VOLTAGE macro
+//****************************************************************************************************************************************************
+
+
+
 // Component parameters (can be overridden)
 #ifndef V_REG
 #define V_REG					3.30
 #endif
 #ifndef VIN_R1
-#define VIN_R1					270000.0
+#define VIN_R1					100000.0
 #endif
 #ifndef VIN_R2
-#define VIN_R2					11000.0 // default value, for 16s max batteries, all solder jumpers open
-//#define VIN_R2					8913.8 // 20s max batteries, 100v solder jumper soldered
-//#define VIN_R2					5958.3.0 // default value, for 30s max batteries, 150v solder jumper soldered. 
+#define VIN_R2					3300.0 // single value for phase voltage dividers   
 #endif
 #ifndef CURRENT_AMP_GAIN
 #define CURRENT_AMP_GAIN		21.88
@@ -116,7 +121,17 @@
 #endif
 
 // Input voltage
-#define GET_INPUT_VOLTAGE()		((V_REG / 4095.0) * (float)ADC_Value[ADC_IND_VIN_SENS] * ((VIN_R1 + VIN_R2) / VIN_R2))
+#ifndef VIN_BUS_R1
+#define VIN_BUS_R1					270000.0
+#endif
+#ifndef VIN_BUS_R2
+#define VIN_BUS_R2					11000.0 // default value, for 16s max batteries, all solder jumpers open
+//#define VIN_BUS_R2					8913.8 // 20s max batteries, 100v solder jumper soldered
+//#define VIN_BUS_R2					5958.3.0 // default value, for 30s max batteries, 150v solder jumper soldered. 
+#endif
+
+#define GET_INPUT_VOLTAGE()		((V_REG / 4095.0) * (float)ADC_Value[ADC_IND_VIN_SENS] * ((VIN_BUS_R1 + VIN_BUS_R2) / VIN_BUS_R2))
+// #define GET_INPUT_VOLTAGE()		((V_REG / 4095.0) * (float)ADC_Value[ADC_IND_VIN_SENS] * ((VIN_R1 + VIN_R2) / VIN_R2))  // default macro, not used for MP2 v0.3 because of separate values for phase and bus voltage dividers
 
 // NTC Termistors
 #define NTC_RES(adc_val)		((4095.0 * 10000.0) / (4095.0-adc_val) - 10000.0)
