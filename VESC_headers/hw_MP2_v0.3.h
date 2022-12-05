@@ -125,9 +125,9 @@
 #define VIN_BUS_R1					270000.0
 #endif
 #ifndef VIN_BUS_R2
-#define VIN_BUS_R2					11000.0 // default value, for 16s max batteries, all solder jumpers open
-//#define VIN_BUS_R2					8913.8 // 20s max batteries, 100v solder jumper soldered
-//#define VIN_BUS_R2					5958.3.0 // default value, for 30s max batteries, 150v solder jumper soldered. 
+#define VIN_BUS_R2					11000.0 // default value, for 16s max batteries, all solder jumpers open.
+//#define VIN_BUS_R2					8913.8 // for 20s max batteries, 100v solder jumper soldered.
+//#define VIN_BUS_R2					5958.3 // for 30s max batteries, 150v solder jumper soldered. 
 #endif
 
 #define GET_INPUT_VOLTAGE()		((V_REG / 4095.0) * (float)ADC_Value[ADC_IND_VIN_SENS] * ((VIN_BUS_R1 + VIN_BUS_R2) / VIN_BUS_R2))
