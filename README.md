@@ -90,39 +90,7 @@
 
 ## test
 
-| J      | MCU pin   | Name                             |  | MCU pin   | Name             |  |
-| ------ | --------- | -------------------------------- |  | --------- | ---------------- |  |
-|        |           |                                  |  |           |                  |  |
-|        |           |                                  |  |           |                  |  |
-| J3 - 1 | n/a       | GND                              |  | n/a       | GND              |  |
-| J3 - 2 | PC13      | HALL\_A                          |  | PC8       | HALL\_A          |  |
-| J3 - 3 | PC14      | HALL\_B                          |  | PC7       | HALL\_B          |  |
-| J3 - 4 | PC15      | HALL\_C                          |  | PC6       | HALL\_C          |  |
-| J3 - 5 | PA7 (opt) | MOTOR\_TEMP                      |  | PA7 (opt) | MOTOR\_TEMP      |  |
-| J3 - 6 | n/a       | 5V5                              |  | n/a       | 5V5              |  |
-|        |           |                                  |  |           |                  |  |
-|        |           |                                  |  |           |                  |  |
-|        |           |                                  |  |           |                  |  |
-| J2 - 1 | n/a       | Vaux (5v or 3v3)                 |  | n/a       | Vaux (5v or 3v3) |  |
-| J2 - 2 | n/a       | GND                              |  | n/a       | GND              |  |
-| J2 - 3 | PB9       | DI2C1\_SDA TIM4\_CH4             |  | PB9       | CAN\_TX          |  |
-| J2 - 4 | PB8       | DI2C1\_SCL TIM4\_CH3             |  | PB8       | CAN\_RX          |  |
-| J2 - 5 | PB7       | D\_UART1\_RX I2C1\_SDA TIM4\_CH2 |  | PB11      | USART3\_RX       |  |
-| J2 - 6 | PB6       | D\_UART1\_TX I2C1\_SCL TIM4\_CH1 |  | PB10      | USART3\_TX       |  |
-|        |           |                                  |  |           |                  |  |
-|        |           |                                  |  |           |                  |  |
-|        |           |                                  |  |           |                  |  |
-|        |           |                                  |  |           |                  |  |
-| J4 - 1 | n/a       | GND                              |  | n/a       | GND              |  |
-| J4 - 2 | n/a       | Vaux                             |  | n/a       | Vaux             |  |
-| J4 - 3 | PB5       | MOSI TIM3 CH2                    |  | PB4       |                  |  |
-| J4 - 4 | PB4       | MISO TIM3 CH1                    |  | PB5       |                  |  |
-| J4 - 5 | PB3       | SCK TIM2CH2                      |  | PB6       | USART1\_TX       |  |
-| J4 - 6 | PA15      | TIM2 CH1                         |  | PB7       | USART1\_RX       |  |
-|        |           |                                  |  |           |                  |  |
-|        |           |                                  |  |           |                  |  |
-|        |           |                                  |  |           |                  |  |
-| J1 - 1 | n/a       | GND                              |  | n/a       | GND              |  |
-| J1 - 2 | PA0       | A\_THROTTLE                      |  | PA4       | A\_THROTTLE      |  |
-| J1 - 3 | PA7 (opt) | A\_BRAKE                         |  | PA7 (opt) | A\_BRAKE         |  |
-| J1 - 4 | n/a       | 5V                               |  | n/a       | 5V               |
+| J      | MCU pin   | Name     |
+| ------ | --------- | ---------|
+| J3 - 1 | n/a       | GND      |
+| J3 - 2 | PC13      | HALL\_A  |
