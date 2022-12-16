@@ -89,6 +89,7 @@
 * increase LED resistor size to 10k or 20k. 
 
 ## test
+
 |        | MCU pin   | Name                             |  | MCU pin   | Name             |  |
 | ------ | --------- | -------------------------------- |  | --------- | ---------------- |  |
 |        |           |                                  |  |           |                  |  |
