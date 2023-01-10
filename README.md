@@ -1,5 +1,9 @@
 # STM32F405 Pill 
 
+## CURRENT STABLE VERSION:
+If youre building a pill, please order: [F405_pill_V1.0](https://github.com/davidmolony/F405_pill/tree/main/F405_pill_V1.0). 
+
+
 ## Features
 * Full compatibility with the [MP2 ESC](https://github.com/badgineer/CCC_ESC), a VESC-based motor control board.
 * Standard blue/black pill header arrangement (2, 20 x 0.1in headers with 0.6in spacing). 
