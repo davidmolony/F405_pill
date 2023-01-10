@@ -5,7 +5,7 @@
 
 * [V1.0](https://github.com/davidmolony/F405_pill/tree/main/F405_pill_V1.1) is still a work in progress. 
 
-* Send an email [this person](mailto:smouldering.dog@gmail.com?subject=[GitHub]%20question) with questions. 
+* Send an email to [this person](mailto:smouldering.dog@gmail.com?subject=[GitHub]%20question) with questions. 
 
 ## Features
 * Full compatibility with the [MP2 ESC](https://github.com/badgineer/CCC_ESC), a VESC-based motor control board.
