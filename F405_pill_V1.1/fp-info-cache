@@ -1,4 +1,4 @@
-20399549361645869
+20402894458497685
 431181015816
 431181015816
 <B>WS-TASV</B><BR> SMT Tact Switch 5x5 mm with ground terminal , 4 pins
@@ -2386,6 +2386,13 @@ speaker CUI
 0
 2
 2
+CDS-13138-SMT-TR
+SPKR_CDS-13138-SMT-TR
+
+
+0
+4
+4
 Calibration_Scale
 Gauge_10mm_Type1_CopperTop
 Gauge, Massstab, 10mm, CopperTop, Type 1,
@@ -80506,6 +80513,13 @@ Logo WEEE
 0
 0
 0
+TYPE-C-31-M-12
+HRO_TYPE-C-31-M-12
+
+
+0
+16
+16
 TerminalBlock
 TerminalBlock_Altech_AK300-2_P5.00mm
 Altech AK300 terminal block, pitch 5.0mm, 45 degree angled, see http://www.mouser.com/ds/2/16/PCBMETRC-24178.pdf
