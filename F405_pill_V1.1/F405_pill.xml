@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/Users/owhite/kicad/F405_pill/F405_pill_V1.1/F405_pill.kicad_sch</source>
-    <date>Thursday, January 12, 2023 at 12:29:32 PM</date>
+    <date>Thursday, January 12, 2023 at 05:12:34 PM</date>
     <tool>Eeschema (6.0.7-1)-1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -359,12 +359,11 @@
     <comp ref="D2">
       <value>GRN</value>
       <footprint>LED_SMD:LED_0402_1005Metric_Pad0.77x0.64mm_HandSolder</footprint>
-      <datasheet>https://datasheet.lcsc.com/lcsc/2008201033_Foshan-NationStar-Optoelectronics-NCD0402G1_C130723.pdf</datasheet>
       <fields>
-        <field name="LCSC">C130723</field>
+        <field name="LCSC">C130719</field>
       </fields>
       <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
-      <property name="LCSC" value="C130723"/>
+      <property name="LCSC" value="C130719"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="F405_pill.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -386,7 +385,7 @@
     </comp>
     <comp ref="J4">
       <value>TYPE-C-31-M-12</value>
-      <footprint>HRO_TYPE-C-31-M-12</footprint>
+      <footprint>TYPE-C-31-M-12:HRO_TYPE-C-31-M-12</footprint>
       <datasheet>https://datasheet.lcsc.com/lcsc/2205251630_Korean-Hroparts-Elec-TYPE-C-31-M-12_C165948.pdf</datasheet>
       <fields>
         <field name="LCSC">C165948</field>
@@ -476,10 +475,10 @@
       <value>60 ohm</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <fields>
-        <field name="LCSC">C2960873</field>
+        <field name="LCSC">C60310</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <property name="LCSC" value="C2960873"/>
+      <property name="LCSC" value="C60310"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="F405_pill.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -489,10 +488,10 @@
       <value>60 ohm</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <fields>
-        <field name="LCSC">C2960873</field>
+        <field name="LCSC">C60310</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <property name="LCSC" value="C2960873"/>
+      <property name="LCSC" value="C60310"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="F405_pill.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -515,10 +514,10 @@
       <value>47 ohm </value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <fields>
-        <field name="LCSC">C2909362</field>
+        <field name="LCSC">C25118</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <property name="LCSC" value="C2909362"/>
+      <property name="LCSC" value="C25118"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="F405_pill.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
