@@ -1,18 +1,4 @@
-20402894458497685
-431181015816
-431181015816
-<B>WS-TASV</B><BR> SMT Tact Switch 5x5 mm with ground terminal , 4 pins
-
-0
-6
-6
-431181015816
-monkey
-
-
-0
-0
-0
+20406274531814550
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -2386,13 +2372,55 @@ speaker CUI
 0
 2
 2
-CDS-13138-SMT-TR
-SPKR_CDS-13138-SMT-TR
+CCC_ESC_Custom_parts
+Blackpill_STM32F401CEU6
+
+
+0
+40
+40
+CCC_ESC_Custom_parts
+CAP_Polarized_SMD
+
+
+0
+2
+2
+CCC_ESC_Custom_parts
+CAP_Polarized_SMD_simple
+
+
+0
+2
+2
+CCC_ESC_Custom_parts
+CAP_Polaryzed
+
+
+0
+2
+2
+CCC_ESC_Custom_parts
+PQDE6W
 
 
 0
 4
 4
+CCC_ESC_Custom_parts
+STM32F405_pill
+
+
+0
+40
+40
+CCC_ESC_Custom_parts
+TO220_replacement_module
+
+
+0
+3
+3
 Calibration_Scale
 Gauge_10mm_Type1_CopperTop
 Gauge, Massstab, 10mm, CopperTop, Type 1,
@@ -6418,20 +6446,6 @@ tag connect programming header pogo pins
 0
 14
 14
-Connector
-my_2_pin
-
-
-0
-2
-2
-Connector
-my_4_pin
-
-
-0
-4
-4
 Connector_AMASS
 AMASS_MR30PW-FB_1x03_P3.50mm_Horizontal
 Connector XT30 Horizontal PCB Female, https://www.tme.eu/en/Document/5e47640ba39fa492dbd4c0f4c8ae7b93/MR30PW%20SPEC.pdf
@@ -17660,6 +17674,13 @@ connector JST ZE horizontal
 0
 18
 17
+Connector_JST
+my_JST_1x06_P2.00mm_Vertical
+JST PH series connector, B6B-PH-K (http://www.jst-mfg.com/product/pdf/eng/ePH.pdf), generated with kicad-footprint-generator
+connector JST PH side entry
+0
+6
+6
 Connector_Molex
 Molex_CLIK-Mate_502382-0270_1x02-1MP_P1.25mm_Vertical
 Molex CLIK-Mate series connector, 502382-0270 (http://www.molex.com/pdm_docs/sd/5023820270_sd.pdf), generated with kicad-footprint-generator
@@ -59128,6 +59149,13 @@ mounting hole 8.4mm m8
 0
 9
 1
+MountingHole
+my_MountingHole_4.3mm_M4
+Mounting Hole 4.3mm, no annular, M4
+mounting hole 4.3mm no annular m4
+0
+0
+0
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMSE-ExternalM3_H5mm_9771050360
 Mounting Hardware, external M3, height 5, Wuerth electronics 9771050360 (https://katalog.we-online.com/em/datasheet/9771050360.pdf), generated with kicad-footprint-generator
@@ -69649,20 +69677,6 @@ VQFP QFP
 0
 176
 176
-Package_QFP
-my_STM32F405RGTx
-LQFP, 64 Pin (https://www.analog.com/media/en/technical-documentation/data-sheets/ad7606_7606-6_7606-4.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
-LQFP QFP
-0
-64
-64
-Package_QFP
-my_STM32F405RGTx_2
-LQFP, 64 Pin (https://www.analog.com/media/en/technical-documentation/data-sheets/ad7606_7606-6_7606-4.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
-LQFP QFP
-0
-64
-64
 Package_SIP
 PowerIntegrations_eSIP-7C
 eSIP-7C Vertical Flat Package with Heatsink Tab, https://ac-dc.power.com/sites/default/files/product-docs/topswitch-jx_family_datasheet.pdf
@@ -72089,6 +72103,13 @@ Package_SO
 Zetex_SM8
 Zetex,  SMD, 8 pin package (http://datasheet.octopart.com/ZDT6758TA-Zetex-datasheet-68057.pdf)
 Zetex SM8
+0
+8
+8
+Package_SO
+my_weird_SOIC
+SOIC, 8 Pin (JEDEC MS-012AA, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_8.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOIC SO
 0
 8
 8
@@ -80513,13 +80534,6 @@ Logo WEEE
 0
 0
 0
-TYPE-C-31-M-12
-HRO_TYPE-C-31-M-12
-
-
-0
-16
-16
 TerminalBlock
 TerminalBlock_Altech_AK300-2_P5.00mm
 Altech AK300 terminal block, pitch 5.0mm, 45 degree angled, see http://www.mouser.com/ds/2/16/PCBMETRC-24178.pdf
