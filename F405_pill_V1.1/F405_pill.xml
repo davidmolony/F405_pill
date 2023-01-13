@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/Users/owhite/kicad/F405_pill/F405_pill_V1.1/F405_pill.kicad_sch</source>
-    <date>Thursday, January 12, 2023 at 05:12:34 PM</date>
+    <date>Friday, January 13, 2023 at 01:03:14 PM</date>
     <tool>Eeschema (6.0.7-1)-1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -126,10 +126,10 @@
       <value>10n</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <fields>
-        <field name="LCSC">C527024</field>
+        <field name="LCSC">C15195</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="LCSC" value="C527024"/>
+      <property name="LCSC" value="C15195"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="F405_pill.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -209,10 +209,10 @@
       <value>100p</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <fields>
-        <field name="LCSC">C41851</field>
+        <field name="LCSC">C1546</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="LCSC" value="C41851"/>
+      <property name="LCSC" value="C1546"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="F405_pill.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -222,10 +222,10 @@
       <value>100p</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <fields>
-        <field name="LCSC">C41851</field>
+        <field name="LCSC">C1546</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="LCSC" value="C41851"/>
+      <property name="LCSC" value="C1546"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="F405_pill.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -305,10 +305,10 @@
       <value>10n</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <fields>
-        <field name="LCSC">C527024</field>
+        <field name="LCSC">C15195</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="LCSC" value="C527024"/>
+      <property name="LCSC" value="C15195"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="F405_pill.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -511,7 +511,7 @@
       <tstamps>88bfc4e5-d56b-4c8b-b460-b5c6db60e044</tstamps>
     </comp>
     <comp ref="R6">
-      <value>47 ohm </value>
+      <value>47R</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <fields>
         <field name="LCSC">C25118</field>
@@ -540,10 +540,10 @@
       <value>1k</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <fields>
-        <field name="LCSC">C25543</field>
+        <field name="LCSC">C11702</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <property name="LCSC" value="C25543"/>
+      <property name="LCSC" value="C11702"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="F405_pill.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -592,10 +592,10 @@
       <value>1k</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <fields>
-        <field name="LCSC">C25543</field>
+        <field name="LCSC">C11702</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <property name="LCSC" value="C25543"/>
+      <property name="LCSC" value="C11702"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="F405_pill.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1055,6 +1055,9 @@
     </library>
     <library logical="Regulator_Linear">
       <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Regulator_Linear.kicad_sym</uri>
+    </library>
+    <library logical="TYPE-C-31-M-12">
+      <uri>/Users/owhite/kicad/F405_pill/F405_pill_V1.1/TYPE-C-31-M-12/TYPE-C-31-M-12.kicad_sym</uri>
     </library>
   </libraries>
   <nets>
