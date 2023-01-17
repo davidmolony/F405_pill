@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/Users/owhite/kicad/F405_pill/F405_pill_V1.1/F405_pill.kicad_sch</source>
-    <date>Friday, January 13, 2023 at 01:03:14 PM</date>
+    <date>Sunday, January 15, 2023 at 04:39:34 PM</date>
     <tool>Eeschema (6.0.7-1)-1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -57,10 +57,10 @@
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <datasheet>https://datasheet.lcsc.com/lcsc/1810112052_FH-Guangdong-Fenghua-Advanced-Tech-0603CG180J500NT_C92671.pdf</datasheet>
       <fields>
-        <field name="LCSC">C1642</field>
+        <field name="LCSC">C1547</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="LCSC" value="C1642"/>
+      <property name="LCSC" value="C1547"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="F405_pill.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -99,10 +99,10 @@
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <datasheet>https://datasheet.lcsc.com/lcsc/1810112052_FH-Guangdong-Fenghua-Advanced-Tech-0603CG180J500NT_C92671.pdf</datasheet>
       <fields>
-        <field name="LCSC">C1642</field>
+        <field name="LCSC">C1547</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="LCSC" value="C1642"/>
+      <property name="LCSC" value="C1547"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="F405_pill.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -233,17 +233,17 @@
     </comp>
     <comp ref="C16">
       <value>10u</value>
-      <footprint>Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A</footprint>
-      <datasheet>https://datasheet.lcsc.com/lcsc/1810191222_Samsung-Electro-Mechanics-CL05B104KB54PNC_C307331.pdf</datasheet>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2201131330_ROHM-Semicon-TCM1A106M8R_C962635.pdf</datasheet>
       <fields>
-        <field name="LCSC">C110055</field>
+        <field name="LCSC">C962635</field>
       </fields>
       <libsource lib="Device" part="C_Polarized_Small" description="Polarized capacitor, small symbol"/>
-      <property name="LCSC" value="C110055"/>
+      <property name="LCSC" value="C962635"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="F405_pill.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>25e8aa03-95c0-41c5-b5ae-c386b68938e3</tstamps>
+      <tstamps>0414e7a9-6a9b-4c3c-9577-95149953a1f2</tstamps>
     </comp>
     <comp ref="C17">
       <value>100n</value>
@@ -315,7 +315,7 @@
       <tstamps>8865e18a-8f6b-470e-9c35-7fb885f85c62</tstamps>
     </comp>
     <comp ref="C22">
-      <value>C_Polarized_Small</value>
+      <value>10u</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <datasheet>https://datasheet.lcsc.com/lcsc/2201131330_ROHM-Semicon-TCM1A106M8R_C962635.pdf</datasheet>
       <fields>
@@ -326,31 +326,17 @@
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="F405_pill.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>0414e7a9-6a9b-4c3c-9577-95149953a1f2</tstamps>
-    </comp>
-    <comp ref="C23">
-      <value>C_Polarized_Small</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <datasheet>https://datasheet.lcsc.com/lcsc/2201131330_ROHM-Semicon-TCM1A106M8R_C962635.pdf</datasheet>
-      <fields>
-        <field name="LCSC">C962635</field>
-      </fields>
-      <libsource lib="Device" part="C_Polarized_Small" description="Polarized capacitor, small symbol"/>
-      <property name="LCSC" value="C962635"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="F405_pill.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>14295b5e-caef-4aed-8069-d95250de66ac</tstamps>
+      <tstamps>b0d51364-6e08-48bc-92fe-628da15e3b11</tstamps>
     </comp>
     <comp ref="D1">
       <value>BLU</value>
-      <footprint>LED_SMD:LED_0402_1005Metric_Pad0.77x0.64mm_HandSolder</footprint>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
       <datasheet>https://datasheet.lcsc.com/lcsc/2008201033_Foshan-NationStar-Optoelectronics-NCD0402B1_C130724.pdf</datasheet>
       <fields>
-        <field name="LCSC">C130724</field>
+        <field name="LCSC">C72041</field>
       </fields>
       <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
-      <property name="LCSC" value="C130724"/>
+      <property name="LCSC" value="C72041"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="F405_pill.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -358,12 +344,12 @@
     </comp>
     <comp ref="D2">
       <value>GRN</value>
-      <footprint>LED_SMD:LED_0402_1005Metric_Pad0.77x0.64mm_HandSolder</footprint>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
       <fields>
-        <field name="LCSC">C130719</field>
+        <field name="LCSC">C72043</field>
       </fields>
       <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
-      <property name="LCSC" value="C130719"/>
+      <property name="LCSC" value="C72043"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="F405_pill.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -371,13 +357,13 @@
     </comp>
     <comp ref="D3">
       <value>RED</value>
-      <footprint>LED_SMD:LED_0402_1005Metric_Pad0.77x0.64mm_HandSolder</footprint>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
       <datasheet>https://datasheet.lcsc.com/lcsc/2008201033_Foshan-NationStar-Optoelectronics-NCD0603G2_C87326.pdf</datasheet>
       <fields>
-        <field name="LCSC">C434445</field>
+        <field name="LCSC">C2286</field>
       </fields>
       <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
-      <property name="LCSC" value="C434445"/>
+      <property name="LCSC" value="C2286"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="F405_pill.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -449,10 +435,10 @@
       <value>10k</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <fields>
-        <field name="LCSC">C140214</field>
+        <field name="LCSC">C25744</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <property name="LCSC" value="C140214"/>
+      <property name="LCSC" value="C25744"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="F405_pill.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -462,10 +448,10 @@
       <value>10k</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <fields>
-        <field name="LCSC">C140214</field>
+        <field name="LCSC">C25744</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <property name="LCSC" value="C140214"/>
+      <property name="LCSC" value="C25744"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="F405_pill.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -616,14 +602,14 @@
       <tstamps>ac264c30-3e9a-4be2-b97a-9949b68bd497</tstamps>
     </comp>
     <comp ref="U2">
-      <value>MAX3051EKA+T</value>
-      <footprint>Package_TO_SOT_SMD:SOT-23-8</footprint>
-      <datasheet>https://datasheet.lcsc.com/lcsc/1809042032_Maxim-Integrated-MAX3051EKA-T_C112005.pdf</datasheet>
+      <value> TJA1050T/CM,118</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1809201810_NXP-Semicon-TJA1050T-CM-118_C6952.pdf</datasheet>
       <fields>
-        <field name="LCSC">C112005</field>
+        <field name="LCSC">C6952</field>
       </fields>
       <libsource lib="Interface_CAN_LIN" part="TJA1051T-3" description="High-Speed CAN Transceiver, separate VIO, silent mode, SOIC-8"/>
-      <property name="LCSC" value="C112005"/>
+      <property name="LCSC" value="C6952"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="F405_pill.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -644,18 +630,18 @@
       <tstamps>61694b61-65e9-49fc-b80c-adbad830c0df</tstamps>
     </comp>
     <comp ref="U5">
-      <value>HT7550-1</value>
+      <value>HT7550</value>
       <footprint>Package_TO_SOT_SMD:SOT-89-3</footprint>
-      <datasheet>http://www.st.com/content/ccc/resource/technical/document/datasheet/15/55/e5/aa/23/5b/43/fd/CD00000446.pdf/files/CD00000446.pdf/jcr:content/translations/en.CD00000446.pdf</datasheet>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1811061932_Holtek-Semicon-HT7550-1_C16106.pdf</datasheet>
       <fields>
         <field name="LCSC">C16106</field>
       </fields>
-      <libsource lib="Regulator_Linear" part="L78L10_SOT89" description="Positive 100mA 30V Linear Regulator, Fixed Output 10V, SOT-89"/>
+      <libsource lib="Regulator_Linear" part="L79L08_SOT89" description="Negative 100mA -30V Linear Regulator, Fixed Output -5V, SOT-89"/>
       <property name="LCSC" value="C16106"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="F405_pill.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>18a70c35-3b90-4327-9fc1-dfceb3e3a5b0</tstamps>
+      <tstamps>6b1983aa-d4f0-4118-9940-739631e3aca8</tstamps>
     </comp>
     <comp ref="Y1">
       <value>Crystal_GND24</value>
@@ -966,22 +952,22 @@
         <pin num="64" name="VDD" type="power_in"/>
       </pins>
     </libpart>
-    <libpart lib="Regulator_Linear" part="L78L10_SOT89">
-      <description>Positive 100mA 30V Linear Regulator, Fixed Output 10V, SOT-89</description>
-      <docs>http://www.st.com/content/ccc/resource/technical/document/datasheet/15/55/e5/aa/23/5b/43/fd/CD00000446.pdf/files/CD00000446.pdf/jcr:content/translations/en.CD00000446.pdf</docs>
+    <libpart lib="Regulator_Linear" part="L79L08_SOT89">
+      <description>Negative 100mA -30V Linear Regulator, Fixed Output -5V, SOT-89</description>
+      <docs>http://www.farnell.com/datasheets/1827870.pdf</docs>
       <footprints>
         <fp>SOT?89*</fp>
       </footprints>
       <fields>
         <field name="Reference">U</field>
-        <field name="Value">L78L10_SOT89</field>
+        <field name="Value">L79L08_SOT89</field>
         <field name="Footprint">Package_TO_SOT_SMD:SOT-89-3</field>
-        <field name="Datasheet">http://www.st.com/content/ccc/resource/technical/document/datasheet/15/55/e5/aa/23/5b/43/fd/CD00000446.pdf/files/CD00000446.pdf/jcr:content/translations/en.CD00000446.pdf</field>
+        <field name="Datasheet">http://www.farnell.com/datasheets/1827870.pdf</field>
       </fields>
       <pins>
-        <pin num="1" name="OUT" type="power_out"/>
-        <pin num="2" name="GND" type="power_in"/>
-        <pin num="3" name="IN" type="power_in"/>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VI" type="power_in"/>
+        <pin num="3" name="VO" type="power_out"/>
       </pins>
     </libpart>
     <libpart lib="Regulator_Linear" part="LM1117-3.3">
@@ -1056,9 +1042,6 @@
     <library logical="Regulator_Linear">
       <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Regulator_Linear.kicad_sym</uri>
     </library>
-    <library logical="TYPE-C-31-M-12">
-      <uri>/Users/owhite/kicad/F405_pill/F405_pill_V1.1/TYPE-C-31-M-12/TYPE-C-31-M-12.kicad_sym</uri>
-    </library>
   </libraries>
   <nets>
     <net code="1" name="+3.3VA">
@@ -1071,8 +1054,8 @@
       <node ref="C1" pin="1" pintype="passive"/>
       <node ref="C10" pin="1" pintype="passive"/>
       <node ref="C12" pin="1" pintype="passive"/>
-      <node ref="C16" pin="1" pintype="passive"/>
       <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C22" pin="1" pintype="passive"/>
       <node ref="C4" pin="1" pintype="passive"/>
       <node ref="C7" pin="1" pintype="passive"/>
       <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
@@ -1088,19 +1071,18 @@
     </net>
     <net code="3" name="+5V">
       <node ref="C20" pin="1" pintype="passive"/>
-      <node ref="C23" pin="1" pintype="passive"/>
       <node ref="J4" pin="A4B9" pinfunction="VBUS" pintype="power_in"/>
       <node ref="J4" pin="B4A9" pinfunction="VBUS" pintype="power_in"/>
       <node ref="U3" pin="3" pinfunction="VI" pintype="power_in"/>
-      <node ref="U5" pin="3" pinfunction="IN" pintype="power_in"/>
+      <node ref="U5" pin="2" pinfunction="VI" pintype="power_in"/>
     </net>
     <net code="4" name="DUAL1">
       <node ref="R8" pin="1" pintype="passive"/>
-      <node ref="U1" pin="24" pinfunction="PC4" pintype="bidirectional"/>
+      <node ref="U1" pin="29" pinfunction="PB10" pintype="bidirectional"/>
     </net>
     <net code="5" name="DUAL2">
       <node ref="R12" pin="1" pintype="passive"/>
-      <node ref="U1" pin="25" pinfunction="PC5" pintype="bidirectional"/>
+      <node ref="U1" pin="30" pinfunction="PB11" pintype="bidirectional"/>
     </net>
     <net code="6" name="GND">
       <node ref="C1" pin="2" pintype="passive"/>
@@ -1115,7 +1097,6 @@
       <node ref="C20" pin="2" pintype="passive"/>
       <node ref="C21" pin="2" pintype="passive"/>
       <node ref="C22" pin="2" pintype="passive"/>
-      <node ref="C23" pin="2" pintype="passive"/>
       <node ref="C3" pin="2" pintype="passive"/>
       <node ref="C4" pin="2" pintype="passive"/>
       <node ref="C5" pin="2" pintype="passive"/>
@@ -1143,7 +1124,7 @@
       <node ref="U2" pin="2" pinfunction="GND" pintype="power_in"/>
       <node ref="U2" pin="8" pinfunction="S" pintype="input"/>
       <node ref="U3" pin="1" pinfunction="GND" pintype="power_in"/>
-      <node ref="U5" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U5" pin="1" pinfunction="GND" pintype="power_in"/>
       <node ref="Y1" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="Y1" pin="4" pinfunction="4" pintype="passive"/>
     </net>
@@ -1279,39 +1260,39 @@
       <node ref="U1" pin="62" pinfunction="PB9" pintype="bidirectional"/>
       <node ref="U2" pin="1" pinfunction="TXD" pintype="input"/>
     </net>
-    <net code="42" name="PB10">
-      <node ref="R8" pin="2" pintype="passive"/>
-      <node ref="U1" pin="29" pinfunction="PB10" pintype="bidirectional"/>
-    </net>
-    <net code="43" name="PB11">
-      <node ref="R12" pin="2" pintype="passive"/>
-      <node ref="U1" pin="30" pinfunction="PB11" pintype="bidirectional"/>
-    </net>
-    <net code="44" name="PB12">
+    <net code="42" name="PB12">
       <node ref="C21" pin="1" pintype="passive"/>
       <node ref="R6" pin="1" pintype="passive"/>
       <node ref="U1" pin="33" pinfunction="PB12" pintype="bidirectional"/>
     </net>
-    <net code="45" name="PB13">
+    <net code="43" name="PB13">
       <node ref="U1" pin="34" pinfunction="PB13" pintype="bidirectional"/>
     </net>
-    <net code="46" name="PB14">
+    <net code="44" name="PB14">
       <node ref="U1" pin="35" pinfunction="PB14" pintype="bidirectional"/>
     </net>
-    <net code="47" name="PB15">
+    <net code="45" name="PB15">
       <node ref="U1" pin="36" pinfunction="PB15" pintype="bidirectional"/>
     </net>
-    <net code="48" name="PC0">
+    <net code="46" name="PC0">
       <node ref="U1" pin="8" pinfunction="PC0" pintype="bidirectional"/>
     </net>
-    <net code="49" name="PC1">
+    <net code="47" name="PC1">
       <node ref="U1" pin="9" pinfunction="PC1" pintype="bidirectional"/>
     </net>
-    <net code="50" name="PC2">
+    <net code="48" name="PC2">
       <node ref="U1" pin="10" pinfunction="PC2" pintype="bidirectional"/>
     </net>
-    <net code="51" name="PC3">
+    <net code="49" name="PC3">
       <node ref="U1" pin="11" pinfunction="PC3" pintype="bidirectional"/>
+    </net>
+    <net code="50" name="PC4">
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="U1" pin="24" pinfunction="PC4" pintype="bidirectional"/>
+    </net>
+    <net code="51" name="PC5">
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="U1" pin="25" pinfunction="PC5" pintype="bidirectional"/>
     </net>
     <net code="52" name="PC6">
       <node ref="U1" pin="37" pinfunction="PC6" pintype="bidirectional"/>
@@ -1367,9 +1348,9 @@
       <node ref="U1" pin="44" pinfunction="PA11" pintype="bidirectional"/>
     </net>
     <net code="67" name="VDO_I">
-      <node ref="C22" pin="1" pintype="passive"/>
+      <node ref="C16" pin="1" pintype="passive"/>
       <node ref="U2" pin="3" pinfunction="VCC" pintype="power_in"/>
-      <node ref="U5" pin="1" pinfunction="OUT" pintype="power_out"/>
+      <node ref="U5" pin="3" pinfunction="VO" pintype="power_out"/>
     </net>
     <net code="68" name="_PB12">
       <node ref="R6" pin="2" pintype="passive"/>
