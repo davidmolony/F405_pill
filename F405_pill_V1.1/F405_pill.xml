@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="E">
   <design>
-    <source>/Users/owhite/kicad/F405_pill/F405_pill_V1.1/F405_pill.kicad_sch</source>
-    <date>Sunday, January 15, 2023 at 04:39:34 PM</date>
+    <source>/Users/owhite/F405_pill/F405_pill_V1.1/F405_pill.kicad_sch</source>
+    <date>Monday, January 23, 2023 at 09:05:08 AM</date>
     <tool>Eeschema (6.0.7-1)-1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -391,32 +391,6 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>1eb2cfb1-654e-4304-9c92-8c390f8b426a</tstamps>
     </comp>
-    <comp ref="JP1">
-      <value>Jumper_2_Open</value>
-      <footprint>Connector:my_2_pin</footprint>
-      <fields>
-        <field name="DNP">YES</field>
-      </fields>
-      <libsource lib="Jumper" part="Jumper_2_Open" description="Jumper, 2-pole, open"/>
-      <property name="DNP" value="YES"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="F405_pill.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>a745e779-85b1-40b9-bada-1ff2fde4de45</tstamps>
-    </comp>
-    <comp ref="JP2">
-      <value>Jumper_2_Open</value>
-      <footprint>Connector:my_2_pin</footprint>
-      <fields>
-        <field name="DNP">YES</field>
-      </fields>
-      <libsource lib="Jumper" part="Jumper_2_Open" description="Jumper, 2-pole, open"/>
-      <property name="DNP" value="YES"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="F405_pill.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>404ba0d2-8608-4600-ab7c-93e2c92db4d9</tstamps>
-    </comp>
     <comp ref="L1">
       <value>39n</value>
       <footprint>Inductor_SMD:L_0402_1005Metric</footprint>
@@ -458,26 +432,26 @@
       <tstamps>f92c50cb-d0a6-40ab-ae4e-3dc33509c409</tstamps>
     </comp>
     <comp ref="R3">
-      <value>60 ohm</value>
+      <value>100Ω</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <fields>
-        <field name="LCSC">C60310</field>
+        <field name="LCSC">C25076</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <property name="LCSC" value="C60310"/>
+      <property name="LCSC" value="C25076"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="F405_pill.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>c94eb5d4-d4fd-4174-84ff-5b04692ded2b</tstamps>
     </comp>
     <comp ref="R4">
-      <value>60 ohm</value>
+      <value>100Ω</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <fields>
-        <field name="LCSC">C60310</field>
+        <field name="LCSC">C25076</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <property name="LCSC" value="C60310"/>
+      <property name="LCSC" value="C25076"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="F405_pill.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1042,6 +1016,9 @@
     <library logical="Regulator_Linear">
       <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Regulator_Linear.kicad_sym</uri>
     </library>
+    <library logical="TYPE-C-31-M-12">
+      <uri>/Users/owhite/kicad/F405_pill/F405_pill_V1.1/TYPE-C-31-M-12/TYPE-C-31-M-12.kicad_sym</uri>
+    </library>
   </libraries>
   <nets>
     <net code="1" name="+3.3VA">
@@ -1058,8 +1035,7 @@
       <node ref="C22" pin="1" pintype="passive"/>
       <node ref="C4" pin="1" pintype="passive"/>
       <node ref="C7" pin="1" pintype="passive"/>
-      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="JP1" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="L1" pin="1" pintype="passive"/>
       <node ref="R2" pin="1" pintype="passive"/>
       <node ref="U1" pin="1" pinfunction="VBAT" pintype="power_in"/>
@@ -1110,7 +1086,6 @@
       <node ref="J4" pin="S2" pinfunction="SHIELD" pintype="passive"/>
       <node ref="J4" pin="S3" pinfunction="SHIELD" pintype="passive"/>
       <node ref="J4" pin="S4" pinfunction="SHIELD" pintype="passive"/>
-      <node ref="JP2" pin="2" pinfunction="B" pintype="passive"/>
       <node ref="R1" pin="1" pintype="passive"/>
       <node ref="R10" pin="2" pintype="passive"/>
       <node ref="R11" pin="2" pintype="passive"/>
@@ -1129,7 +1104,6 @@
       <node ref="Y1" pin="4" pinfunction="4" pintype="passive"/>
     </net>
     <net code="7" name="NRST">
-      <node ref="JP2" pin="1" pinfunction="A" pintype="passive"/>
       <node ref="R2" pin="2" pintype="passive"/>
       <node ref="U1" pin="7" pinfunction="NRST" pintype="input"/>
     </net>
@@ -1168,7 +1142,7 @@
     </net>
     <net code="15" name="Net-(D1-Pad1)">
       <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
-      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
     </net>
     <net code="16" name="Net-(D2-Pad1)">
       <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
@@ -1176,7 +1150,7 @@
     </net>
     <net code="17" name="Net-(D3-Pad1)">
       <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
-      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
     </net>
     <net code="18" name="Net-(J4-PadA5)">
       <node ref="J4" pin="A5" pinfunction="CC1" pintype="bidirectional"/>
@@ -1187,7 +1161,6 @@
       <node ref="R11" pin="1" pintype="passive"/>
     </net>
     <net code="20" name="Net-(JP1-Pad2)">
-      <node ref="JP1" pin="2" pinfunction="B" pintype="passive"/>
       <node ref="R1" pin="2" pintype="passive"/>
       <node ref="U1" pin="60" pinfunction="BOOT0" pintype="input"/>
     </net>
@@ -1304,7 +1277,7 @@
       <node ref="U1" pin="39" pinfunction="PC8" pintype="bidirectional"/>
     </net>
     <net code="55" name="PC9">
-      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="U1" pin="40" pinfunction="PC9" pintype="bidirectional"/>
     </net>
     <net code="56" name="PC10">

@@ -3732,7 +3732,7 @@
   )
 
   (symbol (lib_id "Jumper:Jumper_2_Open") (at 53.975 28.829 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes)
+    (in_bom no) (on_board yes)
     (uuid 404ba0d2-8608-4600-ab7c-93e2c92db4d9)
     (property "Reference" "JP2" (id 0) (at 55.245 26.289 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -4340,7 +4340,7 @@
   )
 
   (symbol (lib_id "Jumper:Jumper_2_Open") (at 40.005 28.829 90) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes)
+    (in_bom no) (on_board yes)
     (uuid a745e779-85b1-40b9-bada-1ff2fde4de45)
     (property "Reference" "JP1" (id 0) (at 38.735 25.019 90)
       (effects (font (size 1.27 1.27)) (justify left))
