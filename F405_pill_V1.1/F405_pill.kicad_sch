@@ -3624,7 +3624,7 @@
     (property "Value" "12p" (id 1) (at 57.277 68.2052 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (id 2) (at 54.737 66.929 0)
+    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (id 2) (at 54.737 66.929 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://datasheet.lcsc.com/lcsc/1810112052_FH-Guangdong-Fenghua-Advanced-Tech-0603CG180J500NT_C92671.pdf" (id 3) (at 54.737 66.929 0)
@@ -3958,7 +3958,7 @@
     (property "Value" "12p" (id 1) (at 34.417 68.199 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (id 2) (at 40.132 66.929 0)
+    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (id 2) (at 40.132 66.929 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://datasheet.lcsc.com/lcsc/1810112052_FH-Guangdong-Fenghua-Advanced-Tech-0603CG180J500NT_C92671.pdf" (id 3) (at 40.132 66.929 0)
@@ -5162,7 +5162,7 @@
       (reference "C2") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/6e59773b-20cf-43bf-aecf-380aa682d29d"
-      (reference "C3") (unit 1) (value "12p") (footprint "Capacitor_SMD:C_0603_1608Metric")
+      (reference "C3") (unit 1) (value "12p") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/40c82e52-98e4-4cad-a0d7-023fceadffa0"
       (reference "C4") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0402_1005Metric")
@@ -5171,7 +5171,7 @@
       (reference "C5") (unit 1) (value "1u") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/1ec141c7-7133-40d6-b34a-de571f2b6dac"
-      (reference "C6") (unit 1) (value "12p") (footprint "Capacitor_SMD:C_0603_1608Metric")
+      (reference "C6") (unit 1) (value "12p") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/ed8ad173-5f47-4e49-8771-8d0e48ed290e"
       (reference "C7") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0402_1005Metric")
