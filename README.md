@@ -87,11 +87,10 @@
 <img src="/pics/PIN_MP2_MAPPING.png" alt="Pins to MP2" title="Pins to MP2">
 
 ## V1.1 changes
-* power LED color
-* power LED resistor
-* 12 pF on xtal
 
-## V1.2 change request
-* put LEDs on separate resistors
-* increase LED resistor size to 10k or 20k. 
-* capacitor between usb shell and pb12, to stop false trips
+* Xtal caps from 18pF to 12pF
+* Separate the two LEDs from the single resistor
+* CAN spike protection
+* RC between GND and pb12 to stop false trips
+* PC12->PA15 to drive LED
+* Increased functionality of several header pins
