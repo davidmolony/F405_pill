@@ -94,3 +94,4 @@
 * RC between GND and pb12 to stop false trips
 * PC12->PA15 to drive LED
 * Increased functionality of several header pins
+* Review [this document](https://docs.google.com/spreadsheets/d/133GiePRK8IwF3s6afCpwSXIvTwbwvJINTHfW9RnuX6c/edit) for pin changes
