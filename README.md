@@ -1,7 +1,7 @@
 # STM32F405 Pill 
 
 ## VERSIONS:
-* We are likely to deprecate [F405_pill_V1.0](https://github.com/davidmolony/F405_pill/tree/main/F405_pill_V1.0) soon. 
+* We are likely to deprecate [F405_pill_V1.0](https://github.com/davidmolony/F405_pill/tree/RELEASE_V1.0) soon. 
 
 * [V1.1](https://github.com/davidmolony/F405_pill/tree/main/F405_pill_V1.1) is under going testing. 
 
