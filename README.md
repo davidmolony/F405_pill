@@ -84,7 +84,7 @@
   </tr>
 </table>
 
-<img src="/pics/PIN_MAPPINGs.png" alt="Pins to MP2" title="Pins to MP2">
+<img src="/pics/PIN_MAPPINGS.png" alt="Pins to MP2" title="Pins to MP2">
 
 ## V1.1 changes
 
