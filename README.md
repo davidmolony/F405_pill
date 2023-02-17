@@ -93,3 +93,7 @@
 * PC12->PA15 to drive LED
 * Increased functionality of several header pins
 * Review [this document](https://docs.google.com/spreadsheets/d/133GiePRK8IwF3s6afCpwSXIvTwbwvJINTHfW9RnuX6c/edit) for pin changes
+
+## REVISION REQUEST
+
+* Jumper to disable CAN termination resistor on bottom side of board
