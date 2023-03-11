@@ -97,4 +97,4 @@
 * Jumper to disable CAN termination resistor on bottom side of board
 
 ## CONTACT
-  [this person](mailto:smouldering.dog@gmail.com?subject=[GitHub]%20question) with questions. 
+  Questions? Contact [this person](mailto:smouldering.dog@gmail.com?subject=[GitHub]%20question). 
