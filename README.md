@@ -1,7 +1,5 @@
 # STM32F405 Pill 
 
-* Contact [this person](mailto:smouldering.dog@gmail.com?subject=[GitHub]%20question) with questions. 
-
 ## Features
 * Full compatibility with the [MP2 ESC](https://github.com/badgineer/CCC_ESC).
 * Standard blue/black pill header arrangement (2, 20 x 0.1in headers with 0.6in spacing). 
@@ -97,3 +95,6 @@
 ## REVISION REQUEST
 
 * Jumper to disable CAN termination resistor on bottom side of board
+
+## CONTACT
+  [this person](mailto:smouldering.dog@gmail.com?subject=[GitHub]%20question) with questions. 
