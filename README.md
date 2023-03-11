@@ -3,7 +3,7 @@
 * Contact [this person](mailto:smouldering.dog@gmail.com?subject=[GitHub]%20question) with questions. 
 
 ## Features
-* Full compatibility with the [MP2 ESC](https://github.com/badgineer/CCC_ESC), a VESC-based motor control board.
+* Full compatibility with the [MP2 ESC](https://github.com/badgineer/CCC_ESC).
 * Standard blue/black pill header arrangement (2, 20 x 0.1in headers with 0.6in spacing). 
 * Kicad BOM contains links to [jlcpcb](https://jlcpcb.com/) for rapid PCBA.
 * Four layer design with two inner uninterupted ground planes. 
