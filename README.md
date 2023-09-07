@@ -13,7 +13,7 @@
 * Output: +3.3V @ 1000mA
 * Dimensions: 53.8 x 19.4 mm
 * Headers: 2, 20x0.1in pins @ 0.6in spacing
-* [Schematic](https://github.com/davidmolony/F405_pill/blob/main/F405_pill_V1.1/F405_pill_schematic.pdf)
+* [Schematic](https://github.com/davidmolony/F405_pill/blob/main/F405_pill_V1.11/F405_pill_schematic.pdf)
 * 8 Mhz oscillator
 * LM1117 LDO Voltage Regulator ([datasheet](https://datasheet.lcsc.com/lcsc/1811131822_HTC-Korea-TAEJIN-Tech-LM1117S-3-3_C126027.pdf))
 * [BSD License](https://github.com/davidmolony/F405_pill/blob/main/LICENSE)
