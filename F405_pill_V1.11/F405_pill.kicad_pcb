@@ -3090,7 +3090,7 @@
     (property "ki_keywords" "capacitor cap")
     (path "/15ce088a-15a9-4c81-bd7f-9b48e4a4ff3a")
     (attr smd)
-    (fp_text reference "C23" (at 0 -1.16) (layer "F.SilkS")
+    (fp_text reference "C23" (at 0 -1.16) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp fd3faf08-ac6f-4108-92a9-cfdbbee5dae1)
     )
