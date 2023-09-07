@@ -2419,6 +2419,12 @@
     (uuid fffd71f8-8ea9-4b51-aec3-527889fc34d3)
   )
 
+  (rectangle (start 149.86 86.36) (end 180.34 106.68)
+    (stroke (width 0) (type default))
+    (fill (type none))
+    (uuid 21583f07-327b-479b-84d1-67e88615c7e5)
+  )
+
   (text "MCU" (at 84.455 55.499 0)
     (effects (font (size 4 4)) (justify left bottom))
     (uuid 16fa9fd6-c189-49db-b94a-661dded438f6)
@@ -2457,6 +2463,10 @@
   (text "  BOARD\nREGULATOR\n\n" (at 230.251 131.826 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 84011afa-320b-498b-88a2-4dfd2504dee4)
+  )
+  (text "Addition to F405_pill_V1.11" (at 152.4 104.14 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 89e33024-3d9e-4b1c-bee5-9875d439bd3c)
   )
   (text "PILL HEADERS" (at 169.926 27.813 0)
     (effects (font (size 2.9972 2.9972)) (justify left bottom))

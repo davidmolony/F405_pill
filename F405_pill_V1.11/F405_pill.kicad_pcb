@@ -3286,7 +3286,7 @@
   (gr_text "GND\n" (at 101.376 75.66) (layer "F.SilkS") (tstamp 4abe8a79-22d2-4ffe-8eb3-efb1e8f327b0)
     (effects (font (size 0.4 0.4) (thickness 0.06)))
   )
-  (gr_text "Manually set these parts to these orientations\nU1 90\nU2 270\nU3 0\nU5 270\nUpdated U5 to lcsc# C6186" (at 93.35 101.05) (layer "F.SilkS") (tstamp 508d7eb2-40f4-4ac6-a665-2b8fc03f70f8)
+  (gr_text "JLCPCB: Manually set parts to these orientations in position file\nU1 90\nU2 270\nU3 0\nU5 270\nUpdated U5 to lcsc# C6186" (at 93.35 101.05) (layer "F.SilkS") (tstamp 508d7eb2-40f4-4ac6-a665-2b8fc03f70f8)
     (effects (font (size 1 1) (thickness 0.15)) (justify left))
   )
   (gr_text "PC0" (at 129.316 75.66) (layer "F.SilkS") (tstamp 692bb13b-b434-4040-bf92-b24fec1807fe)

@@ -81,7 +81,7 @@
 
 ## VERSIONS:
 * The [F405_pill_V1.0](https://github.com/davidmolony/F405_pill/tree/RELEASE_V1.0) has been deprecated. 
-* The F405_pill_V1.11 has an additional 100nF cap on the input to PA4 (throttle)
+* The [F405_pill_V1.11](https://github.com/davidmolony/F405_pill/tree/main/F405_pill_V1.11) has an additional 100nF cap on the input to PA4 (throttle) and we suggest you use this for ordering. 
 
 ## V1.1 changes
 
